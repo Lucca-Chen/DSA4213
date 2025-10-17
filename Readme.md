@@ -1,5 +1,7 @@
 ⚠️ **NOTE:** IF YOU WANT TO REPRODUCE THE CODE, PLEASE MAKE SURE TO DELETE THE `CONFIG` AND `LOG` FOLDERS FIRST.  AFTER RUNNING `00_SETUP_ENV.IPYNB`, THE CORRESPONDING FOLDERS WILL BE AUTOMATICALLY GENERATED.Legal Question Answering with Parameter-Efficient Fine-tuning
 
+# **Legal Question Answering with Parameter-Efficient Fine-tuning**
+
 **NUS DSA4213 Assignment 3 - Fine-tuning Pretrained Transformers**
 
 **Student ID:** A0327241M  
