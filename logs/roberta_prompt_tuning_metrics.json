@@ -1,0 +1,42 @@
+{
+  "run_name": "roberta_prompt_tuning",
+  "prompt_config": {
+    "num_virtual_tokens": 64,
+    "initialize_from_vocab": true
+  },
+  "training_config": {
+    "learning_rate": 0.03,
+    "num_epochs": 5,
+    "batch_size": 8,
+    "warmup_ratio": 0.06,
+    "max_grad_norm": 1.0
+  },
+  "null_score_threshold": 2.5,
+  "training_time_seconds": 41.680732011795044,
+  "training_time_minutes": 0.6946788668632508,
+  "peak_gpu_memory_gb": 1.6312532424926758,
+  "train_loss": 2.584990579309598,
+  "eval_loss": 2.1424217224121094,
+  "exact_match": 69.42148760330579,
+  "f1": 70.77998650191165,
+  "total_params": 124696322,
+  "trainable_params": 50690,
+  "trainable_ratio": 0.040650757926925865,
+  "train_samples": 1132,
+  "eval_samples": 125,
+  "all_metrics": {
+    "exact": 69.42148760330579,
+    "f1": 70.77998650191165,
+    "total": 121,
+    "HasAns_exact": 61.666666666666664,
+    "HasAns_f1": 64.40630611218847,
+    "HasAns_total": 60,
+    "NoAns_exact": 77.04918032786885,
+    "NoAns_f1": 77.04918032786885,
+    "NoAns_total": 61,
+    "best_exact": 69.42148760330579,
+    "best_exact_thresh": 0.0,
+    "best_f1": 70.77998650191167,
+    "best_f1_thresh": 0.0
+  }
+}
